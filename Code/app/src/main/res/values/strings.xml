@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Full Contact</string>
+
+    Splash Screen
+    <string name="SpalshScreen_AppName">Full Contact</string>
+    <string name="SpalshScreen_tagline"></string>
 </resources>

@@ -12,7 +12,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:src="@drawable/splashscreen_logo_contats"
-        >
+        android:src="@drawable/splashscreen_logo_contats">
     </ImageView>
+    <TextView
+        android:id="@+id/textview_app_Name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview_splashLogo_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center_horizontal"
+        android:text="@string/SpalshScreen_AppName"
+        android:textColor="@color/splashScreen_AppNameTextColor"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textView_tagline_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_app_Name_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Demo"
+        android:textColor="@color/splashScreen_taglineColor"
+        android:textSize="10dp"></TextView>
+
 </RelativeLayout>
