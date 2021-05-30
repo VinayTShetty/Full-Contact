@@ -12,7 +12,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:src="@drawable/splashscreen_logo_contats">
+        android:src="@drawable/splashscreen_logo_contats"
+        android:transitionName="transition_Image">
     </ImageView>
     <TextView
         android:id="@+id/textview_app_Name_id"
@@ -24,6 +25,7 @@
         android:fontFamily="@font/audiowide"
         android:gravity="center_horizontal"
         android:text="@string/SpalshScreen_AppName"
+        android:transitionName="transition_text"
         android:textColor="@color/splashScreen_AppNameTextColor"
         android:textSize="30dp"/>
 

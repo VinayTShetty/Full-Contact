@@ -11,8 +11,7 @@
         android:theme="@style/Theme.FullContact">
         <activity android:name=".Activities.LoginScreen"></activity>
         <activity
-            android:name=".Activities.SplashScreen"
-            android:theme="@style/Theme.Transparent">
+            android:name=".Activities.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

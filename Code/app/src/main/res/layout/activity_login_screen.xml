@@ -13,7 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/loginscreen_logo"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:transitionName="transition_Image">
     </ImageView>
     <TextView
         android:id="@+id/textView_loginHeader"
@@ -23,7 +24,8 @@
         android:text="@string/LoginScreen_loginTitle"
         android:textColor="@color/loginScreen_heaerColor"
         android:textSize="50sp"
-        android:fontFamily="@font/baloo_bhai">
+        android:fontFamily="@font/baloo_bhai"
+        android:transitionName="transition_text">
     </TextView>
     <LinearLayout
         android:layout_width="match_parent"
@@ -75,6 +77,14 @@
             android:text="@string/LoginScreen_button_text_LoginButton"
             android:textColor="@color/loginScreen_ButtonLogin_textColor"
             android:textAllCaps="false">
+        </androidx.appcompat.widget.AppCompatButton>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/LoginScreen_button_text_New_User"
+            android:textAllCaps="false"
+            android:background="@color/loginScreen_Button_NewuserSignUp">
         </androidx.appcompat.widget.AppCompatButton>
     </LinearLayout>
 </LinearLayout>

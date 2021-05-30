@@ -10,4 +10,5 @@
     <string name="LoginScreen_textInputlayout_Password">Password</string>
     <string name="LoginScreen_button_text_ForgetPassWord">Forget Password</string>
     <string name="LoginScreen_button_text_LoginButton">Submit</string>
+    <string name="LoginScreen_button_text_New_User">New User Sign up ?</string>
 </resources>
