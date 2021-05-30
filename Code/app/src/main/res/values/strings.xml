@@ -4,4 +4,10 @@
     Splash Screen
     <string name="SpalshScreen_AppName">Full Contact</string>
     <string name="SpalshScreen_tagline"></string>
+    LoginScreen
+    <string name="LoginScreen_loginTitle">Login</string>
+    <string name="LoginScreen_textInputlayout_UserName">UserName</string>
+    <string name="LoginScreen_textInputlayout_Password">Password</string>
+    <string name="LoginScreen_button_text_ForgetPassWord">Forget Password</string>
+    <string name="LoginScreen_button_text_LoginButton">Submit</string>
 </resources>

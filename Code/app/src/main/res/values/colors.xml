@@ -12,4 +12,10 @@
     <color name="splashScreenBackground">#00A5F0</color>
     <color name="splashScreen_AppNameTextColor">#FFFFFFFF</color>
     <color name="splashScreen_taglineColor">#000000</color>
+    Login Screen
+    <color name="loginScreenBackground">#FFFFFFFF</color>
+    <color name="loginScreen_heaerColor">#000000</color>
+    <color name="loginScreen_Button_forgetPassword">#00000000</color>Transperent color
+    <color name="loginScreen_ButtonLogin">#000000</color>
+    <color name="loginScreen_ButtonLogin_textColor">#FFFFFFFF</color>
 </resources>
